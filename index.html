@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NeurIPS 2024 Watermarking Competition</title>
+    <title>ICLR 2025 Workshop on Trustworthy LLM</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/icon.svg" type="image/x-icon">
 </head>
 <body>
 <div class="header">
-    <h1>NeurIPS 2024 Competition<br> Erasing the Invisible:<br>A Stress-Test Challenge for Image
-        Watermarks</h1>
+    <h1>ICLR 2025 Workshop<br> Building Trust in LLMs and LLM Applications: <br>From Guardrails to Explainability to Regulation</h1>
 </div>
 <div class="nav">
     <a href="index.html">HOME</a>
@@ -23,85 +22,41 @@
 </div>
 <div class="content">
     <h2>Welcome!</h2>
-    <p>Welcome to "Erasing the Invisible" at NeurIPS 2024—a cutting-edge competition designed to
-        rigorously stress-test image watermarks. This competition is divided into <b>two tracks:
-            Black Box Track and Beige Box Track</b>. It aims to validate the robustness of image
-        watermarks under varying visibility conditions and attacker knowledge.
-        Competitors will attempt to remove invisible watermarks while maintaining the quality of the
-        images.
-        Evaluations will be based on two criteria: the effectiveness of watermark removal and the
-        preservation of image quality. This competition is inspired by the <a
-                href="https://wavesbench.github.io/" target="_blank"> WAVES</a> benchmark.</p>
+    <p>
+        As the capabilities of Large Language Models (LLMs) continue to evolve, ensuring their reliability and trustworthiness becomes more critical than ever. Whether generating content or code, assisting in research, or being integrated into applications used by millions, the dependability of LLMs is paramount. This workshop brings together researchers, practitioners, and industry experts to explore cutting-edge advancements aimed at improving the trustworthiness of LLMs.
+    </p>
 
-    <p><b>Prizes:</b> There is a $6000 prize pool!</p>
-    <p><b>Join our <a
-            href="https://join.slack.com/t/erasingtheinvisible/shared_invite/zt-2keqwp67q-pcfOqjWoRNTdzAuhuLAh8g">Slack</a>
-        now!</b></p>
-    <h2>News</h2>
-    <ul>
-        <li><b>Sep 24</b>: We release an interactive <a href="https://huggingface.co/spaces/furonghuang-lab/Erasing-Invisible-Demo" ,
-                                                                  target="_blank">Demo</a> for this competition on Hugging Face. Try it out!
+    <h2>Workshop Objectives:</h2>
+    <p>Our goal is to address the key challenges that arise in deploying LLMs in real-world environments by focusing on the following key topics:</p>
 
-        <li><b>Sep 16</b>: The submission phase has started! See <a href="tracks.html" ,
-                                                                  target="_blank">Tracks</a> for details.
-        <li><b>Sep 8</b>: We double the prize pool to $6,000!
-        <li><b>Sep 8</b>: The submission phase has been postponed to Sep 16 - Nov 5.
-        <li><b>Aug 27</b>: The start of the submission phase has been postponed to Sep 9.
-        <li><b>July 31</b>: The warm-up phase has started. See <a href="getting-started.html" ,
-                                                                  target="_blank">Getting
-            Started</a> for details.
-        </li>
-        <li><b>July 31</b>: Registration has opened.</li>
-    </ul>
+    <h3>1. Error Detection and Correction during Content/Code Generation</h3>
+    <p>How can we identify and rectify errors in real-time during the generation process to improve the accuracy and utility of LLMs? This session explores error detection systems and strategies for content/code refinement.</p>
 
-    <h2>Registration</h2>
-    Please register for this competition by filling out this <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSewOVIaQD0OBQijei0zxw_vg0gKv5KPgdekDD859IqjvolHGw/viewform?usp=sf_link"
-        , target="_blank">Google Form</a>. We will email you with every update, ensuring you won't
-    miss anything!
+    <h3>2. Improving Reliability and Truthfulness of LMs</h3>
+    <p>From mitigating hallucinations to correcting miscalibrated responses, we dive deep into techniques aimed at reducing distribution shifts and boosting the factual accuracy and consistency of LLM outputs.</p>
 
-    <h2>Important Dates</h2>
-    <ul>
-        <li><b>July 31:</b> Registration opens</li>
-        <li><b>July 31 - Sep 15:</b> Warm-up phase</li>
-        <li><b>Sep 16 - Nov 5:</b> Submission phase</li>
-        <li><b>Nov 5:</b> Registration closes, submission closes</li>
-        <li><b>Nov 20:</b> Winning team announcement</li>
-        <li><b>Dec 14-15:</b> Workshop days at NeurIPS'24</li>
-    </ul>
-    <h2>Rules</h2>
-    <ul>
-        <li><b>Registration:</b> This competition is open to all. Participants must be registered
-            with a valid email address before submitting an entry. One account per participant.
-            Double
-            registration is not allowed. Every participant can only join one team.
-            Teams may participate in multiple tracks. There is no limit on team size.
-        </li>
-        <li><b>Submission Requirements:</b> 1) Participants receive a set of watermarked images.
-            They then attack these images and upload them.
-            2) The submitted images must follow the guidelines of naming and formatting. Please find details on the submission platform.
-<!--            3) Participants are also required to submit a description of attacks being used along-->
-<!--            with the images.-->
-            3) The exploitation of loopholes (such as the leakage of underlying model) is
-            prohibited. Participants are encouraged to report any detected loopholes.
-            4) During the competition period, we encourage general discussions, but teams are not
-            allowed to share their code or submissions with other teams.
-        </li>
-        <li><b>Prize Eligibility:</b> We will provide monetary prizes to the top teams for each
-            track, subject to scrutinized legitimacy of their methods.
-            For prize eligibility, leading teams must at least provide their methods and code to the
-            organizers for legitimacy checking.
-            Winning teams will be selected by human judges to avoid any hacks on quality metrics.
-            Winning teams will be invited to give a talk at the competition workshop. University System of Maryland, including University of Maryland College Park Employees are not eligible for the prize.
-        </li>
-        <li><b>Rule Adaptation Clause:</b> By registering, participants agree that adjustments may
-            be made in response to unexpected situations. We will strive for fair resolutions to
-            address any unforeseen issues.
+    <h3>3. Explainability and Interpretability of LM Responses</h3>
+    <p>Understanding how LLMs arrive at their conclusions is essential for fostering trust. We’ll discuss methods to make LMs more transparent and interpretable, ensuring users can assess their reliability.</p>
 
+    <h3>4. Robustness of LMs</h3>
+    <p>Addressing prompt attacks and the interventional effects of data and input manipulation is crucial. We explore how to build models that remain resilient and robust even in adversarial or out-of-distribution settings.</p>
 
-        </li>
+    <h3>5. Unlearning Techniques for LMs</h3>
+    <p>In today’s dynamic world, the ability of LLMs to “unlearn” outdated or incorrect information is critical. This session focuses on strategies that allow models to forget specific data while retaining valuable knowledge.</p>
 
-    </ul>
+    <h3>6. Fairness of LMs</h3>
+    <p>Biases, whether social, stereotype, or preference-based, pose significant ethical challenges in LLM deployment. Our discussions will center on techniques to reduce these biases and ensure fair and equitable outputs.</p>
+
+    <h3>7. Guardrails and Regulations for LMs</h3>
+    <p>Ensuring that LLMs are emotionally aware, detect toxic language, and avoid offensive or insensitive content is vital in creating responsible AI systems. We'll also explore emerging frameworks for regulating AI behavior.</p>
+
+    <h3>8. Metrics, Benchmarks, and Evaluation of Trustworthy LMs</h3>
+    <p>To track progress and set standards, we need reliable metrics and evaluation benchmarks. This session will focus on establishing industry standards for assessing the trustworthiness and reliability of LLMs.</p>
+
+    <h2>Join us in shaping the future of trustworthy AI!</h2>
+    <p>
+        Whether you are an academic, industry researcher, or practitioner, this workshop is an opportunity to exchange ideas, share insights, and collaborate on creating LLMs that are not only powerful but also responsible. Let's work together to build models that the world can trust.
+    </p>
 
 
     <!--    <h2>Organizers</h2>-->
@@ -131,80 +86,24 @@
     (* indicates Lead Organizers)
     <div class="photo-grid">
         <figure class="photo">
-            <img src="assets/people/mucong_ding.jpg" alt="Mucong Ding">
-            <figcaption alt="Mucong Ding"><a href="https://www.mucongding.com/">Mucong Ding<sup>*</sup></a><br>UMD </figcaption>
+            <img src="assets/people/rnarayanam.png" alt="Ramasuri Narayanam">
+            <figcaption alt="Ramasuri Narayanam"><a href="https://research.adobe.com/person/ramasuri-narayanam/">Ramasuri Narayanam<sup>*</sup></a><br>Adobe </figcaption>
         </figure>
         <figure class="photo">
-            <img src="assets/people/tahseen.jpg" alt="Tahseen Rabbani">
-            <figcaption alt="Tahseen Rabbani"><a href="https://twr7bm.github.io/">Tahseen Rabbani<sup>*</sup></a><br>Yale </figcaption>
+            <img src="assets/people/micah.jpg" alt="Micah Goldblum">
+            <figcaption alt="Micah Goldblum"><a href="https://goldblum.github.io/">Micah Goldblum<sup>*</sup></a><br>Columbia</figcaption>
         </figure>
         <figure class="photo">
             <img src="assets/people/bang.jpg" alt="Bang An">
             <figcaption alt="Bang An"><a href="https://bangann.github.io/">Bang An<sup>*</sup></a><br>UMD </figcaption>
         </figure>
         <figure class="photo">
-            <img src="assets/people/chenghao.jpg" alt="Chenghao Deng">
-            <figcaption alt="Chenghao Deng"><a href="https://www.linkedin.com/in/chenghao-deng-326444182/">Chenghao Deng<sup>*</sup></a><br>UMD </figcaption>
+            <img src="assets/people/soumya.jpg" alt="Soumyabrata Pal">
+            <figcaption alt="Soumyabrata Pal"><a href="https://soumyabratap.github.io/">Soumyabrata Pal<sup>*</sup></a><br>Adobe</figcaption>
         </figure>
         <figure class="photo">
-            <img src="assets/people/souradip.jpg" alt="Souradip Chakraborty">
-            <figcaption alt="Souradip Chakraborty"><a href="https://souradip-chakraborty.github.io/">Souradip Chakraborty</a><br>UMD </figcaption>
-        </figure>
-        <figure class="photo">
-            <img src="assets/people/anirudh.jpg" alt="Anirudh Satheesh">
-            <figcaption alt=""><a href="https://www.linkedin.com/in/anirudh-satheesh/">Anirudh Satheesh</a><br>UMD </figcaption>
-        </figure>
-        <figure class="photo">
-            <img src="assets/people/mehrdad.jpg" alt="Mehrdad Saberi">
-            <figcaption alt=""><a href="https://mehrdadsaberi.github.io/">Mehrdad Saberi</a><br>UMD </figcaption>
-        </figure>
-        <figure class="photo">
-            <img src="assets/people/yuxin.png" alt="Yuxin Wen">
-            <figcaption alt=""><a href="https://yuxinwenrick.github.io/">Yuxin Wen</a><br>UMD </figcaption>
-        </figure>
-        <figure class="photo">
-            <img src="assets/people/kyle.jpg" alt="Kyle Sang">
-            <figcaption alt=""><a href="https://www.linkedin.com/in/kyle-sang/">Kyle Sang</a><br>UMD </figcaption>
-        </figure>
-        <figure class="photo">
-            <img src="assets/people/aakriti.jpeg" alt="Aakriti Agrawal">
-            <figcaption alt=""><a href="https://sites.google.com/bits-pilani.ac.in/aakriti">Aakriti Agrawal</a><br>UMD </figcaption>
-        </figure>
-        <figure class="photo">
-            <img src="assets/people/xuandong.jpg" alt="Xuandong Zhao">
-             <figcaption alt=""><a href="https://xuandongzhao.github.io/">Xuandong Zhao</a><br>UC Berkeley </figcaption>
-        </figure>
-        <figure class="photo">
-            <img src="assets/people/mozhou.png" alt="Mo Zhou">
-            <figcaption alt=""><a href="https://cdluminate.github.io/">Mo Zhou</a><br>JHU </figcaption>
-        </figure>
-        <figure class="photo">
-            <img src="assets/people/mary.jpg" alt="Mary-Anne Hartley">
-            <figcaption alt=""><a href="https://medicine.yale.edu/profile/mary-anne-hartley/">Mary-Anne Hartley</a><br>Yale </figcaption>
-        </figure>
-        <figure class="photo">
-            <img src="assets/people/lei.jpg" alt="Lei Li">
-            <figcaption alt=""><a href="https://lileicc.github.io/">Lei Li</a><br>CMU </figcaption>
-        </figure>
-        <figure class="photo">
-            <img src="assets/people/yuxiang.jpg" alt="Yu-Xiang Wang">
-            <figcaption alt=""><a href="https://cseweb.ucsd.edu/~yuxiangw/">Yu-Xiang Wang</a><br>UCSD </figcaption>
-        </figure>
-        <figure class="photo">
-            <img src="assets/people/vishal.jpg" alt="Vishal M. Patel">
-            <figcaption alt=""><a href="https://engineering.jhu.edu/faculty/vishal-patel/">Vishal M. Patel</a><br>JHU </figcaption>
-        </figure>
-        <figure class="photo">
-            <img src="assets/people/soheil.jpg" alt="Soheil Feizi">
-            <figcaption alt=""><a href="https://www.cs.umd.edu/~sfeizi/">Soheil Feizi</a><br>UMD </figcaption>
-        </figure>
-        <figure class="photo">
-            <img src="assets/people/tom.jpg" alt="Tom Goldstein">
-             <figcaption alt=""><a href="https://www.cs.umd.edu/~tomg/">Tom Goldstein<sup>*</sup></a><br>UMD </figcaption>
-        </figure>
-        <figure class="photo">
-            <img src="assets/people/furong.jpg" alt="Furong Huang">
-            <figcaption alt=""><a href="https://furong-huang.com/">Furong Huang<sup>*</sup></a><br>UMD </figcaption>
+            <img src="assets/people/shsaini.jpeg" alt="Shiv Saini">
+            <figcaption alt="Shiv Saini"><a href="https://research.adobe.com/person/shiv-kumar-saini/">Shiv Saini</a><br>Adobe </figcaption>
         </figure>
         <!-- Add more photos as needed -->
     </div>
@@ -217,15 +116,18 @@ year={2024},
 url={https://openreview.net/forum?id=URtUYfC3GA}
 }</code></pre>
 
-    <h2>Acknowledgement</h2>
-    We would like to express our sincere thanks to everyone who helped in developing and setting up the competition.
-    We will formally acknowledge their support after the completion of the competition's submission phase.
+<h1>Acknowledgements</h1>
+
+<p>We would like to extend our heartfelt thanks to all those who made this Workshop on Trustworthy LLMs a success. This event would not have been possible without valuable contributions from several individuals.
+Lastly, we express our gratitude to everyone working towards creating more trustworthy, reliable, and ethical AI systems. It is only through collaboration and shared knowledge that we can continue to push the boundaries of what is possible in AI while ensuring it remains safe and responsible for all.
+Thank you all for being part of this journey!</p>
+
 
 
 
 </div>
 <div class="footer">
-    <p>NeurIPS 2024 Competition - Erasing the Invisible: A Stress-Test Challenge for Image
+    <p>ICLR 2025 Workshop - Erasing the Invisible: A Stress-Test Challenge for Image
         Watermarks</p>
 </div>
 </body>
