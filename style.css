@@ -35,6 +35,14 @@ body, html {
     font-size: 1.2em;
 }
 
+.committee-list {
+    columns: 3; /* Creates three columns */
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    column-gap: 40px;
+    padding: 0 20px;
+    text-align: left;
+}
 .nav a {
     color: white;
     padding: 14px 20px;
@@ -55,6 +63,35 @@ body, html {
     font-size: 1.2em; /* Larger font size for readability */
     line-height: 1.6; /* Increased line height */
     text-align: left; /* Keep text aligned to the left for better readability in paragraphs */
+}
+
+.schedule-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+.schedule-table th, .schedule-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+.schedule-table th {
+    background-color: #f2f2f2;
+}
+.schedule-table td {
+    background-color: #fafafa;
+}
+.schedule-table tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}
+.schedule-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+.schedule-table tr:hover {
+    background-color: #f1f1f1;
 }
 
 .footer {
