@@ -4,7 +4,7 @@ body, html {
 }
 
 .header {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/0a/The_Great_Wave_off_Kanagawa.jpg');
+    background-image: url('assets/people/overview2.jpg');
     height: 50vh;
     background-size: cover;
     background-position: center;
@@ -18,7 +18,7 @@ body, html {
 .header h1 {
     text-align: center;
     width: 100%;
-    font-size: 3.8em;
+    font-size: 2.5em;
     padding: 20px;
     line-height: 1.4;
 }
