@@ -22,7 +22,9 @@ body, html {
     padding: 20px;
     line-height: 1.4;
 }
-
+section {
+    margin-bottom: 20px;
+}
 .header h2 {
     text-align: center;
     width: 100%;
