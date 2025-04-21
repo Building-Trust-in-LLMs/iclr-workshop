@@ -265,3 +265,76 @@ pre {
         padding: 8px 15px;
     }
 }
+
+/* Speaker Grid Styles */
+.speaker-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.speaker-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.speaker-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.speaker-info {
+    font-size: 1.1em;
+    line-height: 1.4;
+}
+
+.speaker-info a {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.speaker-info a:hover {
+    color: #3498db;
+    text-decoration: underline;
+}
+
+/* Responsive adjustments for speaker grid */
+@media (max-width: 768px) {
+    .speaker-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+    .speaker-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .speaker-info {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .speaker-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .speaker-image {
+        width: 120px;
+        height: 120px;
+    }
+}
